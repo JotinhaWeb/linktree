@@ -78,7 +78,7 @@ a {
     background-color: black;
     background-image: url(./img/doodle\ items.png);
     overflow-y:hidden;
-    align-itens:flex-start;
+    justify-content:flex-start;
     
   }
   body,
