@@ -14,7 +14,7 @@ body {
   background-image: url(./img/doodle\ items.png);
   height: 100vh;
   display: flex;
- justify-content: center;
+  margin-top:10px
 }
 body,
 .ii {
