@@ -25,8 +25,8 @@ body,
 }
 
 .img {
-  
-  width: 285px;
+  margin-top:10px;
+  width: 275px;
   border: 3px solid #3be4d6;
   border-radius: 100%;
 }
@@ -46,7 +46,7 @@ a {
   background: #3be4d6;
   font-size: 30px;
   width: 350px;
-  height: 65px;
+  height: 45px;
   margin: 11px 0px;
   border-radius: 9px;
   align-items: center;
