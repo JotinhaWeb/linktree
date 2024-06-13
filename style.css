@@ -14,13 +14,19 @@ body {
   background-image: url(./img/doodle\ items.png);
   height: 100vh;
   display: flex;
-  justify-content: center;
-  
+  justify-content:flex-start;
 }
 body,
 .ii {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+ 
+main {
+     
+  height: 100vh;
+  display: flex;
   align-items: center;
 }
 
@@ -31,27 +37,28 @@ body,
   border-radius: 100%;
 }
 p {
-   font-size: 25px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  color: #ffffff;
-  border-bottom: 2px solid #3be4d6;
+
+  font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    border-bottom: 2px solid #3be4d6;
 }
 a {
   text-decoration: none;
 }
-.oie {
-  border: none;
-  color: white;
-  background: #3be4d6;
-  font-size: 30px;
-  width: 350px;
-  height: 55px;
-  margin: 11px 0px;
-  border-radius: 9px;
-  align-items: center;
-  justify-content: center;
-  display: flex;
+  .oie {
+    border: none;
+    color: white;
+    background: #3be4d6;
+    font-size: 30px;
+    width: 288px;
+    height: 55px;
+    margin: 11px 0px;
+    border-radius: 9px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .oie:hover {
@@ -65,79 +72,9 @@ a {
 .i {
   margin-top: 10px;
   
-  width: 50px;
+  width: 33px;
 }
 
 .oi:hover {
   opacity: 0.6;
-}
-
-
-@media (max-width: 800px) {
-
-  body {
-    background-color: black;
-    background-image: url(./img/doodle\ items.png);
-  
-    justify-content:flex-start;
-    
-  }
-  body,
-  .ii {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  main {
-     
-    height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-  .img {
-    width: 215px;
-   margin-top:10px
-  }
-  p {
-     font-size: 20px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    color: #ffffff;
-    border-bottom: 2px solid #3be4d6;
-  }
-  a {
-    text-decoration: none;
-  }
-  .oie {
-    border: none;
-    color: white;
-    background: #3be4d6;
-    font-size: 30px;
-    width: 288px;
-    height: 45px;
-    margin: 11px 0px;
-    border-radius: 9px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
-  
-  .oie:hover {
-    background-color:#29A096 ;
-  }
-  
-  .oi {
-    margin: 20px 18px;
-
-  }
-  .i {
-    margin-top: 10px;
-    width: 33px;
-  }
-  
-  .oi:hover {
-    opacity: 0.6;
-  }
-  
 }
